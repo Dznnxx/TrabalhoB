@@ -1,0 +1,11 @@
+
+﻿int pesoPrato, PreçoKilo, valorpagar;
+
+Console.WriteLine("Digite o peso do prato (em kilos");
+pesoPrato = Convert.ToInt32 (Console.ReadLine());
+
+PreçoKilo = 12;
+
+valorpagar = pesoPrato * PreçoKilo;
+
+Console.WriteLine("O valor a pagar vai ser " + valorpagar);
