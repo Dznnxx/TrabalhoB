@@ -1,0 +1,20 @@
+
+﻿int quantidadePães, quantidadeBroas, totalPaes, totalBroas;
+decimal Tpães, Tbroas, totalarrecadado, valorguardado;
+
+Console.WriteLine("Digite a quantidade de pães vendidos");
+quantidadePães = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Digite a quantidade de broas vendidas");
+quantidadeBroas  = Convert.ToInt32(Console.ReadLine());
+
+Tpães = quantidadePães * 0.12m;
+
+Tbroas = quantidadeBroas * 1.50m;
+
+totalarrecadado = Tpães + Tbroas;
+
+valorguardado = totalarrecadado / 10 * 0.1m;
+
+Console.WriteLine("Total arrecadado: " + totalarrecadado);
+Console.WriteLine("Valor a ser guardado na poupança (10%) :  R$ " + valorguardado);
