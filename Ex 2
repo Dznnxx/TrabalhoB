@@ -1,0 +1,13 @@
+﻿int NumerodeCavalos = 0, ferraduras = 0;
+Console.WriteLine("Digite o numero de cavalos");
+
+if (NumerodeCavalos == 1)
+{
+    ferraduras += NumerodeCavalos = 4;
+}
+else if (NumerodeCavalos > 2)
+{
+    ferraduras * 4 + NumerodeCavalos
+}
+
+Console.WriteLine("São necessarias" + ferraduras + NumerodeCavalos);
